@@ -1,0 +1,12 @@
+# Taken from https://github.com/github/gitignore.
+
+# Elm.
+elm-stuff
+repl-temp-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
