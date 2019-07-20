@@ -124,7 +124,7 @@ fromList nodes =
 -- DATA STRUCTURE EXPANSION
 
 
-{-| Expand this graph to forlm a set of all vertices.
+{-| Expand this graph to form a set of all vertices.
 -}
 vertices : Graph comparable -> Set comparable
 vertices graph =
@@ -142,7 +142,7 @@ vertices graph =
             Set.union (vertices a) (vertices b)
 
 
-{-| Expand this graph to forlm a set of all edges.
+{-| Expand this graph to form a set of all edges.
 -}
 edges : Graph comparable -> Set ( comparable, comparable )
 edges graph =
